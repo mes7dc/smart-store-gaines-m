@@ -20,3 +20,134 @@
 2025-05-16 10:05:05.028 | INFO     | __main__:process_data:59 - Data shape (ct of rows, ct of columns): (2001, 7).
 2025-05-16 10:05:05.028 | INFO     | __main__:process_data:60 - Data columns: ['TransactionID', 'SaleDate', 'CustomerID', 'ProductID', 'StoreID', 'CampaignID', 'SaleAmount'].
 2025-05-16 10:05:05.029 | INFO     | __main__:main:84 - Data preparation complete.
+2025-05-21 08:59:56.782 | INFO     | __main__:main:171 - ==================================
+2025-05-21 08:59:56.783 | INFO     | __main__:main:172 - STARTING prepare_customers_data.py
+2025-05-21 08:59:56.783 | INFO     | __main__:main:173 - ==================================
+2025-05-21 08:59:56.784 | INFO     | __main__:main:175 - Root         : C:\Repos\smart-store-gaines-m
+2025-05-21 08:59:56.784 | INFO     | __main__:main:176 - data/raw     : C:\Repos\smart-store-gaines-m\data\raw
+2025-05-21 08:59:56.784 | INFO     | __main__:main:177 - data/prepared: C:\Repos\smart-store-gaines-m\data\prepared
+2025-05-21 08:59:56.785 | INFO     | __main__:main:178 - scripts      : C:\Repos\smart-store-gaines-m\scripts
+2025-05-21 08:59:56.785 | INFO     | __main__:read_raw_data:58 - READING: C:\Repos\smart-store-gaines-m\data\raw\customers_data.csv.
+2025-05-21 08:59:57.533 | INFO     | __main__:main:190 - Initial dataframe columns: CustomerID, Name, Region, JoinDate, PreferredContactMethod, LoyaltyPoints
+2025-05-21 08:59:57.536 | INFO     | __main__:main:191 - Initial dataframe shape: (201, 6)
+2025-05-21 08:59:57.539 | INFO     | __main__:remove_duplicates:94 - FUNCTION START: remove_duplicates with dataframe shape=(201, 6)
+2025-05-21 09:02:40.852 | INFO     | __main__:main:171 - ==================================
+2025-05-21 09:02:40.853 | INFO     | __main__:main:172 - STARTING prepare_customers_data.py
+2025-05-21 09:02:40.853 | INFO     | __main__:main:173 - ==================================
+2025-05-21 09:02:40.854 | INFO     | __main__:main:175 - Root         : C:\Repos\smart-store-gaines-m
+2025-05-21 09:02:40.854 | INFO     | __main__:main:176 - data/raw     : C:\Repos\smart-store-gaines-m\data\raw
+2025-05-21 09:02:40.855 | INFO     | __main__:main:177 - data/prepared: C:\Repos\smart-store-gaines-m\data\prepared
+2025-05-21 09:02:40.855 | INFO     | __main__:main:178 - scripts      : C:\Repos\smart-store-gaines-m\scripts
+2025-05-21 09:02:40.855 | INFO     | __main__:read_raw_data:58 - READING: C:\Repos\smart-store-gaines-m\data\raw\customers_data.csv.
+2025-05-21 09:02:40.860 | INFO     | __main__:main:190 - Initial dataframe columns: CustomerID, Name, Region, JoinDate, PreferredContactMethod, LoyaltyPoints
+2025-05-21 09:02:40.861 | INFO     | __main__:main:191 - Initial dataframe shape: (201, 6)
+2025-05-21 09:02:40.862 | INFO     | __main__:remove_duplicates:94 - FUNCTION START: remove_duplicates with dataframe shape=(201, 6)
+2025-05-21 09:41:57.475 | INFO     | __main__:main:171 - ==================================
+2025-05-21 09:41:57.495 | INFO     | __main__:main:172 - STARTING prepare_customers_data.py
+2025-05-21 09:41:57.495 | INFO     | __main__:main:173 - ==================================
+2025-05-21 09:41:57.496 | INFO     | __main__:main:175 - Root         : C:\Repos\smart-store-gaines-m
+2025-05-21 09:41:57.496 | INFO     | __main__:main:176 - data/raw     : C:\Repos\smart-store-gaines-m\data\raw
+2025-05-21 09:41:57.497 | INFO     | __main__:main:177 - data/prepared: C:\Repos\smart-store-gaines-m\data\prepared
+2025-05-21 09:41:57.497 | INFO     | __main__:main:178 - scripts      : C:\Repos\smart-store-gaines-m\scripts
+2025-05-21 09:41:57.498 | INFO     | __main__:read_raw_data:58 - READING: C:\Repos\smart-store-gaines-m\data\raw\customers_data.csv.
+2025-05-21 09:41:57.502 | INFO     | __main__:main:190 - Initial dataframe columns: CustomerID, Name, Region, JoinDate, PreferredContactMethod, LoyaltyPoints
+2025-05-21 09:41:57.503 | INFO     | __main__:main:191 - Initial dataframe shape: (201, 6)
+2025-05-21 09:41:57.504 | INFO     | __main__:remove_duplicates:94 - FUNCTION START: remove_duplicates with dataframe shape=(201, 6)
+2025-05-21 09:42:51.582 | INFO     | __main__:main:171 - ==================================
+2025-05-21 09:42:51.583 | INFO     | __main__:main:172 - STARTING prepare_customers_data.py
+2025-05-21 09:42:51.583 | INFO     | __main__:main:173 - ==================================
+2025-05-21 09:42:51.583 | INFO     | __main__:main:175 - Root         : C:\Repos\smart-store-gaines-m
+2025-05-21 09:42:51.584 | INFO     | __main__:main:176 - data/raw     : C:\Repos\smart-store-gaines-m\data\raw
+2025-05-21 09:42:51.585 | INFO     | __main__:main:177 - data/prepared: C:\Repos\smart-store-gaines-m\data\prepared
+2025-05-21 09:42:51.585 | INFO     | __main__:main:178 - scripts      : C:\Repos\smart-store-gaines-m\scripts
+2025-05-21 09:42:51.585 | INFO     | __main__:read_raw_data:58 - READING: C:\Repos\smart-store-gaines-m\data\raw\customers_data.csv.
+2025-05-21 09:42:51.590 | INFO     | __main__:main:190 - Initial dataframe columns: CustomerID, Name, Region, JoinDate, PreferredContactMethod, LoyaltyPoints
+2025-05-21 09:42:51.590 | INFO     | __main__:main:191 - Initial dataframe shape: (201, 6)
+2025-05-21 09:42:51.591 | INFO     | __main__:remove_duplicates:94 - FUNCTION START: remove_duplicates with dataframe shape=(201, 6)
+2025-05-21 09:42:51.622 | INFO     | __main__:remove_duplicates:105 - Original dataframe shape: (201, 6)
+2025-05-21 09:42:51.623 | INFO     | __main__:remove_duplicates:106 - Deduped  dataframe shape: (201, 6)
+2025-05-21 09:42:51.624 | INFO     | __main__:handle_missing_values:122 - FUNCTION START: handle_missing_values with dataframe shape=(201, 6)
+2025-05-21 09:42:51.625 | INFO     | __main__:handle_missing_values:126 - Total missing values before handling: 0
+2025-05-21 09:42:51.626 | INFO     | __main__:handle_missing_values:135 - Total missing values after handling: 0
+2025-05-21 09:42:51.626 | INFO     | __main__:handle_missing_values:136 - 201 records remaining after handling missing values.
+2025-05-21 09:42:51.626 | INFO     | __main__:remove_outliers:150 - FUNCTION START: remove_outliers with dataframe shape=(201, 6)
+2025-05-21 09:42:51.627 | INFO     | __main__:remove_outliers:158 - Removed 0 outlier rows
+2025-05-21 09:42:51.627 | INFO     | __main__:remove_outliers:159 - 201 records remaining after removing outliers.
+2025-05-21 09:42:51.628 | INFO     | __main__:save_prepared_data:76 - FUNCTION START: save_prepared_data with file_name=customers_prepared.csv, dataframe shape=(201, 6)
+2025-05-21 09:42:51.646 | INFO     | __main__:save_prepared_data:79 - Data saved to C:\Repos\smart-store-gaines-m\data\prepared\customers_prepared.csv
+2025-05-21 09:42:51.646 | INFO     | __main__:main:214 - ==================================
+2025-05-21 09:42:51.647 | INFO     | __main__:main:215 - Original shape: (201, 6)
+2025-05-21 09:42:51.647 | INFO     | __main__:main:216 - Cleaned shape:  (201, 6)
+2025-05-21 09:42:51.648 | INFO     | __main__:main:217 - ==================================
+2025-05-21 09:42:51.648 | INFO     | __main__:main:218 - FINISHED prepare_customers_data.py
+2025-05-21 09:42:51.649 | INFO     | __main__:main:219 - ==================================
+2025-05-21 09:43:23.780 | INFO     | __main__:main:232 - ==================================
+2025-05-21 09:43:23.781 | INFO     | __main__:main:233 - STARTING prepare_products_data.py
+2025-05-21 09:43:23.782 | INFO     | __main__:main:234 - ==================================
+2025-05-21 09:43:23.782 | INFO     | __main__:main:236 - Root         : C:\Repos\smart-store-gaines-m
+2025-05-21 09:43:23.783 | INFO     | __main__:main:237 - data/raw     : C:\Repos\smart-store-gaines-m\data\raw
+2025-05-21 09:43:23.783 | INFO     | __main__:main:238 - data/prepared: C:\Repos\smart-store-gaines-m\data\prepared
+2025-05-21 09:43:23.784 | INFO     | __main__:main:239 - scripts      : C:\Repos\smart-store-gaines-m\scripts
+2025-05-21 09:43:23.784 | INFO     | __main__:read_raw_data:64 - FUNCTION START: read_raw_data with file_name=products_data.csv
+2025-05-21 09:43:23.785 | INFO     | __main__:read_raw_data:66 - Reading data from C:\Repos\smart-store-gaines-m\data\raw\products_data.csv
+2025-05-21 09:43:23.816 | INFO     | __main__:read_raw_data:68 - Loaded dataframe with 100 rows and 6 columns
+2025-05-21 09:43:23.817 | INFO     | __main__:read_raw_data:64 - FUNCTION START: read_raw_data with file_name=products_data.csv
+2025-05-21 09:43:23.817 | INFO     | __main__:read_raw_data:66 - Reading data from C:\Repos\smart-store-gaines-m\data\raw\products_data.csv
+2025-05-21 09:43:23.819 | INFO     | __main__:read_raw_data:68 - Loaded dataframe with 100 rows and 6 columns
+2025-05-21 09:43:23.820 | INFO     | __main__:main:254 - Initial dataframe columns: ProductID, ProductName, Category, UnitPrice, StockQuantity, Supplier
+2025-05-21 09:43:23.820 | INFO     | __main__:main:255 - Initial dataframe shape: (100, 6)
+2025-05-21 09:43:23.821 | INFO     | __main__:main:264 - Cleaned column names: ProductID -> productid, ProductName -> productname, Category -> category, UnitPrice -> unitprice, StockQuantity -> stockquantity, Supplier -> supplier
+2025-05-21 09:43:23.822 | INFO     | __main__:remove_duplicates:101 - FUNCTION START: remove_duplicates with dataframe shape=(100, 6)
+2025-05-21 09:43:23.824 | INFO     | __main__:remove_duplicates:111 - Removed 0 duplicate rows
+2025-05-21 09:43:23.825 | INFO     | __main__:remove_duplicates:112 - 100 records remaining after removing duplicates.
+2025-05-21 09:43:23.825 | INFO     | __main__:handle_missing_values:126 - FUNCTION START: handle_missing_values with dataframe shape=(100, 6)
+2025-05-21 09:43:23.827 | INFO     | __main__:handle_missing_values:131 - Missing values by column before handling:
+productid        0
+productname      0
+category         0
+unitprice        0
+stockquantity    0
+supplier         0
+dtype: int64
+2025-05-21 09:43:23.829 | INFO     | __main__:handle_missing_values:145 - Missing values by column after handling:
+productid        0
+productname      0
+category         0
+unitprice        0
+stockquantity    0
+supplier         0
+dtype: int64
+2025-05-21 09:43:23.829 | INFO     | __main__:handle_missing_values:146 - 100 records remaining after handling missing values.
+2025-05-21 09:43:23.830 | INFO     | __main__:remove_outliers:160 - FUNCTION START: remove_outliers with dataframe shape=(100, 6)
+2025-05-21 09:43:23.830 | INFO     | __main__:remove_outliers:179 - Removed 0 outlier rows
+2025-05-21 09:43:23.831 | INFO     | __main__:remove_outliers:180 - 100 records remaining after removing outliers.
+2025-05-21 09:43:23.831 | INFO     | __main__:validate_data:216 - FUNCTION START: validate_data with dataframe shape=(100, 6)
+2025-05-21 09:43:23.831 | INFO     | __main__:validate_data:225 - Data validation complete
+2025-05-21 09:43:23.832 | INFO     | __main__:standardize_formats:193 - FUNCTION START: standardize_formats with dataframe shape=(100, 6)
+2025-05-21 09:43:23.832 | INFO     | __main__:standardize_formats:203 - Completed standardizing formats
+2025-05-21 09:43:23.832 | INFO     | __main__:save_prepared_data:86 - FUNCTION START: save_prepared_data with file_name=products_prepared.csv, dataframe shape=(100, 6)
+2025-05-21 09:43:23.835 | INFO     | __main__:save_prepared_data:89 - Data saved to C:\Repos\smart-store-gaines-m\data\prepared\products_prepared.csv
+2025-05-21 09:43:23.836 | INFO     | __main__:main:284 - ==================================
+2025-05-21 09:43:23.836 | INFO     | __main__:main:285 - Original shape: (100, 6)
+2025-05-21 09:43:23.836 | INFO     | __main__:main:286 - Cleaned shape:  (100, 6)
+2025-05-21 09:43:23.837 | INFO     | __main__:main:287 - ==================================
+2025-05-21 09:43:23.837 | INFO     | __main__:main:288 - FINISHED prepare_products_data.py
+2025-05-21 09:43:23.837 | INFO     | __main__:main:289 - ==================================
+2025-05-21 09:43:32.835 | INFO     | __main__:main:89 - ==================================
+2025-05-21 09:43:32.836 | INFO     | __main__:main:90 - STARTING prepare_sales_data.py
+2025-05-21 09:43:32.836 | INFO     | __main__:main:91 - ==================================
+2025-05-21 09:43:32.837 | INFO     | __main__:main:93 - Root         : C:\Repos\smart-store-gaines-m
+2025-05-21 09:43:32.837 | INFO     | __main__:main:94 - data/raw     : C:\Repos\smart-store-gaines-m\data\raw
+2025-05-21 09:43:32.837 | INFO     | __main__:main:95 - data/prepared: C:\Repos\smart-store-gaines-m\data\prepared
+2025-05-21 09:43:32.838 | INFO     | __main__:main:96 - scripts      : C:\Repos\smart-store-gaines-m\scripts
+2025-05-21 09:43:32.838 | INFO     | __main__:read_raw_data:66 - FUNCTION START: read_raw_data with file_name=sales_data.csv
+2025-05-21 09:43:32.839 | INFO     | __main__:read_raw_data:68 - Reading data from C:\Repos\smart-store-gaines-m\data\raw\sales_data.csv
+2025-05-21 09:43:32.856 | INFO     | __main__:read_raw_data:70 - Loaded dataframe with 2001 rows and 9 columns
+2025-05-21 09:43:32.857 | INFO     | __main__:main:108 - Initial dataframe columns: TransactionID, SaleDate, CustomerID, ProductID, StoreID, CampaignID, SaleAmount, DiscountPercent, PaymentType
+2025-05-21 09:43:32.858 | INFO     | __main__:main:109 - Initial dataframe shape: (2001, 9)
+2025-05-21 09:43:32.859 | INFO     | __main__:main:129 - ==================================
+2025-05-21 09:43:32.859 | INFO     | __main__:main:130 - Original shape: (2001, 9)
+2025-05-21 09:43:32.859 | INFO     | __main__:main:131 - Cleaned shape:  (2001, 9)
+2025-05-21 09:43:32.860 | INFO     | __main__:main:132 - ==================================
+2025-05-21 09:43:32.860 | INFO     | __main__:main:133 - FINISHED prepare_sales_data.py
+2025-05-21 09:43:32.861 | INFO     | __main__:main:134 - ==================================
