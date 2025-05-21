@@ -279,14 +279,17 @@ def main() -> None:
     df = standardize_formats(df)
 
     # Save prepared data
-    save_prepared_data(df, output_file)
+17.	    save_prepared_data(df, output_file)
+18.	
+19.	    logger.info("==================================")
+20.	    logger.info(f"Original shape: {df.shape}")
+21.	    logger.info(f"Cleaned shape:  {original_shape}")
+22.	    logger.info("==================================")
+23.	    logger.info("FINISHED prepare_sales_data.py")
+24.	    logger.info("==================================")
 
-    logger.info("==================================")
-    logger.info(f"Original shape: {df.shape}")
-    logger.info(f"Cleaned shape:  {original_shape}")
-    logger.info("==================================")
-    logger.info("FINISHED prepare_products_data.py")
-    logger.info("==================================")
+
+
 
 # -------------------
 # Conditional Execution Block
