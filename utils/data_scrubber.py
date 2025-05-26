@@ -265,6 +265,3 @@ class DataScrubber:
         self.df = self.df[columns]
         return self.df
     
-
-
-    

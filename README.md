@@ -64,4 +64,30 @@ git commit -m "custom message"
 git push -u origin main
 
 
+Run test script
+Run the script with the command that works for your terminal. 
+Either
+py tests\test_data_scrubber.py
+Or
+python3 tests\test_data_scrubber.py
+ 
+
+Pass All Tests
+Keep editing the DataScrubber class and running the test script until tests run successfully without error.  You do NOT need to modify the test script at all for this exercise. Later, if you add functionality to your DataScrubber class, you may want to add additional tests as well. 
+
+Use Your Data Scrubber 
+Now that we've verified all these handy methods, you can create or update your data_prep.py script that cleans and prepares the data so it's ready for central storage (in a data warehouse or other store)..
+
+Create or Edit Your Main Data Prep script(s)
+In your main data preparation script (e.g., scripts\data-prep.py) - or scripts. There can be a LOT of work in cleaning, you might want to create and maintain one data_prep file for each of the raw tables, for example you might have either all in one:
+
+scripts/data_prep.py 
+Or several files:
+
+scripts/data_prep_cutomers.py
+scripts/data_prep_products.py
+scripts/data_prep_sales.py
+Use whatever works best for you. 
+
+This project example helps illustrate a data-cleaning process that is somewhat standardized and reusable, facilitating efficient data preparation across multiple datasets and BI projects.
 
