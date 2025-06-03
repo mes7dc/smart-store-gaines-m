@@ -1,8 +1,8 @@
 -- 90_create_sales.sql
 
 CREATE TABLE IF NOT EXISTS sales (
-    transaction_id INTEGER PRIMARY KEY,
-    date TEXT,             -- ISO date string, e.g. '2023-05-19'
+    sale_id INTEGER PRIMARY KEY,
+    sale_date TEXT,             -- ISO date string, e.g. '2023-05-19'
     customer_id INTEGER,
     product_id INTEGER,
     store_id INTEGER,

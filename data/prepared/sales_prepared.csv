@@ -1,11 +1,10 @@
-Transaction_ID,date,Customer_ID,Product_ID,Store_ID,Campaign_ID,Sales_Amount,Discount_Percent,Payment_Type
+Transaction_ID,Sale_Date,Customer_ID,Product_ID,Store_ID,Campaign_ID,Sales_Amount,Discount_Percent,Payment_Type
 1,5/4/2025,1034,2059,402,0,2048.2,0.1,Debit
 2,5/4/2025,1066,2048,403,1,321.87,0,Debit
 3,5/4/2025,1116,2041,403,3,3216.84,0.15,Debit
 4,5/4/2025,1071,2096,404,2,1613.23,0.1,Credit
 5,5/4/2025,1020,2060,401,0,408.38,0,Cash
 6,5/4/2025,1089,2028,401,0,1275.88,0.1,Cash
-6,5/4/2025,1089,2028,401,0,1275.88,0.1,Credit
 7,5/4/2025,1193,2003,402,1,346.66,0,Credit
 8,5/4/2025,1005,2079,402,1,855.49,0.05,Cash
 9,5/4/2025,1032,2060,401,1,735.08,0.05,Credit

@@ -1,16 +1,16 @@
-CustomerID,Name,Region,JoinDate,PreferredContactMethod,LoyaltyPoints
+Customer_ID,Name,Region,Join_Date,Preferred_Contact_Method,Loyalty_Points
 1000,Robert Gomez,West,2/25/2024,Email,432
 1001,John Silva,East,12/1/2020,Email,187
 1002,Mark Marshall,Central,8/8/2020,Text,371
-1011,Amanda Myers,West,9/5/2021,Call,297
+1003,David Brennan,North,5/21/2020,Call,394
 1004,Kerry Collins,North,9/12/2023,Text,263
 1005,Jessica Mora,South,8/5/2021,Email,265
 1006,Hannah Ray,West,7/3/2021,Call,138
-1117,Amanda Lang,North,4/14/2024,Email,348
+1007,David Kim,West,5/20/2020,Call,77
 1008,William Ramirez,EAST,9/15/2023,Text,360
 1009,Zachary Bell Jr.,East,4/20/2023,Text,450
-1078,Danielle Fuller,south-west,12/8/2023,Call,496
-1003,David Brennan,North,5/21/2020,Call,394
+1010,Mike Davis,East,3/23/2022,Text,360
+1011,Amanda Myers,West,9/5/2021,Call,297
 1012,Tara Miller,North,8/10/2020,Text,117
 1013,Alyssa Morgan,North,7/22/2022,Call,305
 1014,Cindy Woods,East,4/2/2024,Text,372
@@ -40,7 +40,7 @@ CustomerID,Name,Region,JoinDate,PreferredContactMethod,LoyaltyPoints
 1038,Jason Ford,EAST,10/9/2023,Call,128
 1039,Brandy Good,West,5/21/2023,Call,300
 1040,Angel Lee,Central,4/8/2022,Text,338
-1007,David Kim,West,5/20/2020,Call,77
+1041,David Beltran,east,1/18/2021,Text,397
 1042,Christopher Dodson,North,10/30/2023,Email,176
 1043,Eric Pena,West,6/30/2022,Email,230
 1044,Anita Huerta,East,4/8/2022,Text,107
@@ -48,7 +48,7 @@ CustomerID,Name,Region,JoinDate,PreferredContactMethod,LoyaltyPoints
 1046,Tyler Colon,Central,3/3/2021,Text,270
 1047,Ashley Pearson,West,10/4/2020,Call,175
 1048,Dr. Donald Proctor,North,3/17/2024,Email,54
-1010,Mike Davis,East,3/23/2022,Text,360
+1049,Rebecca Jordan,West,10/8/2022,Call,159
 1050,Jeffrey Mclaughlin,EAST,3/28/2022,Call,122
 1051,Amy Nguyen,Central,2/13/2024,Call,340
 1052,Brandon Hinton,south-west,11/10/2022,Email,181
@@ -64,7 +64,7 @@ CustomerID,Name,Region,JoinDate,PreferredContactMethod,LoyaltyPoints
 1062,Ashley Harmon,South,2/13/2024,Email,78
 1063,Howard Case,south-west,2/15/2021,Call,202
 1064,Joshua Cline,EAST,2/19/2024,Email,220
-1041,David Beltran,east,1/18/2021,Text,397
+1065,Daniel Adams,Central,7/2/2023,Text,239
 1066,Derrick Myers,North,4/6/2022,Call,468
 1067,Lawrence Pearson,east,4/29/2023,Email,153
 1068,Melissa Gutierrez,East,12/25/2023,Call,187
@@ -77,7 +77,7 @@ CustomerID,Name,Region,JoinDate,PreferredContactMethod,LoyaltyPoints
 1075,Joseph Chavez,North,1/1/2023,Call,335
 1076,Glenn Shelton,east,5/1/2024,Text,189
 1077,Amy Espinoza,North,5/29/2021,Call,99
-1049,Rebecca Jordan,West,10/8/2022,Call,159
+1078,Danielle Fuller,south-west,12/8/2023,Call,496
 1079,Zachary Thompson MD,EAST,9/5/2022,Email,146
 1080,Thomas Parker,south-west,2/28/2023,Text,76
 1081,Ryan White,South,9/4/2020,Call,55
@@ -103,7 +103,7 @@ CustomerID,Name,Region,JoinDate,PreferredContactMethod,LoyaltyPoints
 1101,Ryan Martin,south-west,11/14/2020,Call,68
 1102,Robert Hansen,Central,11/19/2022,Call,380
 1103,Megan Chandler,East,6/25/2023,Call,424
-1065,Daniel Adams,Central,7/2/2023,Text,239
+1104,David Herrera,West,4/1/2021,Text,65
 1105,Taylor Clarke,Central,3/11/2023,Email,66
 1106,Jennifer Ewing,east,5/16/2023,Call,243
 1107,Emily Hoffman,West,6/9/2023,Email,127
@@ -116,7 +116,7 @@ CustomerID,Name,Region,JoinDate,PreferredContactMethod,LoyaltyPoints
 1114,Grace Price,South,3/25/2022,Text,202
 1115,Gina Banks,West,9/16/2023,Text,125
 1116,Melissa Rivera,Central,10/25/2021,Call,311
-1104,David Herrera,West,4/1/2021,Text,65
+1117,Amanda Lang,North,4/14/2024,Email,348
 1118,Briana Alvarado,South,3/18/2022,Text,115
 1119,Cameron Hernandez,east,8/8/2022,Call,100
 1120,Daniel Meyer,South,3/15/2024,Email,118
@@ -199,4 +199,3 @@ CustomerID,Name,Region,JoinDate,PreferredContactMethod,LoyaltyPoints
 1197,William Wilson,West,4/4/2023,Call,204
 1198,Chris Allen,south-west,10/11/2022,Email,334
 1199,James Cooley,West,7/23/2020,Email,191
-1005,Jessica Mora,South,8/5/2021,Call,175

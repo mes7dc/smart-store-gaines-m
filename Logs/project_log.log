@@ -457,3 +457,123 @@ dtype: int64
 2025-05-29 10:53:35.587 | INFO     | __main__:main:202 - ========================================
 2025-05-29 10:53:35.589 | INFO     | __main__:main:203 - Finished: create_dw_sqlite.py
 2025-05-29 10:53:35.590 | INFO     | __main__:main:204 - ========================================
+2025-06-03 08:16:43.770 | INFO     | __main__:load_data_to_db:84 - Connected to SQLite database at data\dw\smart_sales.sqlite
+2025-06-03 08:16:44.111 | INFO     | __main__:load_data_to_db:90 - Schema created and existing records deleted.
+2025-06-03 08:39:45.627 | INFO     | __main__:load_data_to_db:84 - Connected to SQLite database at data\dw\smart_sales.sqlite
+2025-06-03 08:39:45.630 | INFO     | __main__:load_data_to_db:90 - Schema created and existing records deleted.
+2025-06-03 08:39:53.575 | INFO     | __main__:load_data_to_db:84 - Connected to SQLite database at data\dw\smart_sales.sqlite
+2025-06-03 08:39:53.578 | INFO     | __main__:load_data_to_db:90 - Schema created and existing records deleted.
+2025-06-03 08:40:52.510 | INFO     | __main__:load_data_to_db:84 - Connected to SQLite database at data\dw\smart_sales.sqlite
+2025-06-03 08:40:52.513 | INFO     | __main__:load_data_to_db:90 - Schema created and existing records deleted.
+2025-06-03 08:45:29.569 | INFO     | __main__:load_data_to_db:84 - Connected to SQLite database at data\dw\smart_sales.sqlite
+2025-06-03 08:45:29.572 | INFO     | __main__:load_data_to_db:90 - Schema created and existing records deleted.
+2025-06-03 08:48:33.839 | INFO     | __main__:load_data_to_db:84 - Connected to SQLite database at data\dw\smart_sales.sqlite
+2025-06-03 08:48:33.842 | INFO     | __main__:load_data_to_db:90 - Schema created and existing records deleted.
+2025-06-03 08:49:49.306 | INFO     | __main__:load_data_to_db:84 - Connected to SQLite database at data\dw\smart_sales.sqlite
+2025-06-03 08:49:49.309 | INFO     | __main__:load_data_to_db:90 - Schema created and existing records deleted.
+2025-06-03 08:50:00.711 | INFO     | __main__:load_data_to_db:84 - Connected to SQLite database at data\dw\smart_sales.sqlite
+2025-06-03 08:50:00.713 | INFO     | __main__:load_data_to_db:90 - Schema created and existing records deleted.
+2025-06-03 08:53:36.112 | INFO     | __main__:load_data_to_db:84 - Connected to SQLite database at data\dw\smart_sales.sqlite
+2025-06-03 08:53:36.114 | INFO     | __main__:load_data_to_db:90 - Schema created and existing records deleted.
+2025-06-03 08:55:41.361 | INFO     | __main__:load_data_to_db:84 - Connected to SQLite database at data\dw\smart_sales.sqlite
+2025-06-03 08:55:41.363 | INFO     | __main__:load_data_to_db:90 - Schema created and existing records deleted.
+2025-06-03 08:58:46.491 | INFO     | __main__:load_data_to_db:84 - Connected to SQLite database at data\dw\smart_sales.sqlite
+2025-06-03 08:58:46.494 | INFO     | __main__:load_data_to_db:90 - Schema created and existing records deleted.
+2025-06-03 09:01:46.222 | INFO     | __main__:load_data_to_db:84 - Connected to SQLite database at data\dw\smart_sales.sqlite
+2025-06-03 09:01:46.224 | INFO     | __main__:load_data_to_db:90 - Schema created and existing records deleted.
+2025-06-03 09:08:24.619 | INFO     | __main__:load_data_to_db:84 - Connected to SQLite database at data\dw\smart_sales.sqlite
+2025-06-03 09:08:24.989 | INFO     | __main__:load_data_to_db:90 - Schema created and existing records deleted.
+2025-06-03 09:12:29.044 | INFO     | __main__:main:198 - ========================================
+2025-06-03 09:12:29.045 | INFO     | __main__:main:199 - Starting: create_dw_sqlite.py
+2025-06-03 09:12:29.045 | INFO     | __main__:main:200 - ========================================
+2025-06-03 09:12:29.045 | INFO     | __main__:main:201 - Root:   C:\Repos\smart-store-gaines-m
+2025-06-03 09:12:29.046 | INFO     | __main__:main:202 - Scripts:C:\Repos\smart-store-gaines-m\scripts\dw_create
+2025-06-03 09:12:29.046 | INFO     | __main__:main:203 - SQL:    C:\Repos\smart-store-gaines-m\sql\dw_create
+2025-06-03 09:12:29.047 | INFO     | __main__:main:204 - Input:  C:\Repos\smart-store-gaines-m\data\prepared
+2025-06-03 09:12:29.047 | INFO     | __main__:main:205 - Output: C:\Repos\smart-store-gaines-m\dw\smart_sales.sqlite
+2025-06-03 09:12:29.048 | INFO     | __main__:create_dw:76 - Creating data warehouse using SQLite...
+2025-06-03 09:12:29.049 | INFO     | __main__:run_sql_file:64 - RUN: C:\Repos\smart-store-gaines-m\sql\dw_create\00_drop_all_tables.sql
+2025-06-03 09:12:29.051 | INFO     | __main__:run_sql_file:64 - RUN: C:\Repos\smart-store-gaines-m\sql\dw_create\10_create_customers.sql
+2025-06-03 09:12:29.186 | INFO     | __main__:run_sql_file:64 - RUN: C:\Repos\smart-store-gaines-m\sql\dw_create\00_drop_all_tables.sql
+2025-06-03 09:12:29.254 | INFO     | __main__:run_sql_file:64 - RUN: C:\Repos\smart-store-gaines-m\sql\dw_create\20_create_products.sql
+2025-06-03 09:12:29.334 | INFO     | __main__:run_sql_file:64 - RUN: C:\Repos\smart-store-gaines-m\sql\dw_create\90_create_sales.sql
+2025-06-03 09:12:29.428 | INFO     | __main__:create_dw:98 - Data warehouse schema created successfully.
+2025-06-03 09:12:29.428 | INFO     | __main__:populate_dw:113 - Populating SQLite data warehouse from prepared CSVs...
+2025-06-03 09:12:29.593 | INFO     | __main__:populate_dw:133 - Inserted 201 rows into customers table.
+2025-06-03 09:12:29.602 | ERROR    | __main__:populate_dw:189 - Error populating SQLite data warehouse: table products has no column named product_id
+2025-06-03 09:16:02.813 | INFO     | __main__:main:198 - ========================================
+2025-06-03 09:16:02.813 | INFO     | __main__:main:199 - Starting: create_dw_sqlite.py
+2025-06-03 09:16:02.814 | INFO     | __main__:main:200 - ========================================
+2025-06-03 09:16:02.814 | INFO     | __main__:main:201 - Root:   C:\Repos\smart-store-gaines-m
+2025-06-03 09:16:02.814 | INFO     | __main__:main:202 - Scripts:C:\Repos\smart-store-gaines-m\scripts\dw_create
+2025-06-03 09:16:02.815 | INFO     | __main__:main:203 - SQL:    C:\Repos\smart-store-gaines-m\sql\dw_create
+2025-06-03 09:16:02.815 | INFO     | __main__:main:204 - Input:  C:\Repos\smart-store-gaines-m\data\prepared
+2025-06-03 09:16:02.816 | INFO     | __main__:main:205 - Output: C:\Repos\smart-store-gaines-m\dw\smart_sales.sqlite
+2025-06-03 09:16:02.816 | INFO     | __main__:create_dw:76 - Creating data warehouse using SQLite...
+2025-06-03 09:16:02.818 | INFO     | __main__:run_sql_file:64 - RUN: C:\Repos\smart-store-gaines-m\sql\dw_create\00_drop_all_tables.sql
+2025-06-03 09:16:03.055 | INFO     | __main__:run_sql_file:64 - RUN: C:\Repos\smart-store-gaines-m\sql\dw_create\10_create_customers.sql
+2025-06-03 09:16:03.155 | INFO     | __main__:run_sql_file:64 - RUN: C:\Repos\smart-store-gaines-m\sql\dw_create\00_drop_all_tables.sql
+2025-06-03 09:16:03.254 | INFO     | __main__:run_sql_file:64 - RUN: C:\Repos\smart-store-gaines-m\sql\dw_create\20_create_products.sql
+2025-06-03 09:16:03.354 | INFO     | __main__:run_sql_file:64 - RUN: C:\Repos\smart-store-gaines-m\sql\dw_create\90_create_sales.sql
+2025-06-03 09:16:03.438 | INFO     | __main__:create_dw:98 - Data warehouse schema created successfully.
+2025-06-03 09:16:03.439 | INFO     | __main__:populate_dw:113 - Populating SQLite data warehouse from prepared CSVs...
+2025-06-03 09:16:03.682 | INFO     | __main__:populate_dw:133 - Inserted 201 rows into customers table.
+2025-06-03 09:16:03.780 | INFO     | __main__:populate_dw:150 - Inserted 100 rows into products table.
+2025-06-03 09:16:03.812 | ERROR    | __main__:populate_dw:189 - Error populating SQLite data warehouse: table sales has no column named sale_id
+2025-06-03 09:21:08.534 | INFO     | __main__:main:198 - ========================================
+2025-06-03 09:21:08.534 | INFO     | __main__:main:199 - Starting: create_dw_sqlite.py
+2025-06-03 09:21:08.535 | INFO     | __main__:main:200 - ========================================
+2025-06-03 09:21:08.535 | INFO     | __main__:main:201 - Root:   C:\Repos\smart-store-gaines-m
+2025-06-03 09:21:08.535 | INFO     | __main__:main:202 - Scripts:C:\Repos\smart-store-gaines-m\scripts\dw_create
+2025-06-03 09:21:08.536 | INFO     | __main__:main:203 - SQL:    C:\Repos\smart-store-gaines-m\sql\dw_create
+2025-06-03 09:21:08.536 | INFO     | __main__:main:204 - Input:  C:\Repos\smart-store-gaines-m\data\prepared
+2025-06-03 09:21:08.537 | INFO     | __main__:main:205 - Output: C:\Repos\smart-store-gaines-m\dw\smart_sales.sqlite
+2025-06-03 09:21:08.537 | INFO     | __main__:create_dw:76 - Creating data warehouse using SQLite...
+2025-06-03 09:21:08.538 | INFO     | __main__:run_sql_file:64 - RUN: C:\Repos\smart-store-gaines-m\sql\dw_create\00_drop_all_tables.sql
+2025-06-03 09:21:08.845 | INFO     | __main__:run_sql_file:64 - RUN: C:\Repos\smart-store-gaines-m\sql\dw_create\10_create_customers.sql
+2025-06-03 09:21:08.946 | INFO     | __main__:run_sql_file:64 - RUN: C:\Repos\smart-store-gaines-m\sql\dw_create\00_drop_all_tables.sql
+2025-06-03 09:21:09.053 | INFO     | __main__:run_sql_file:64 - RUN: C:\Repos\smart-store-gaines-m\sql\dw_create\20_create_products.sql
+2025-06-03 09:21:09.153 | INFO     | __main__:run_sql_file:64 - RUN: C:\Repos\smart-store-gaines-m\sql\dw_create\90_create_sales.sql
+2025-06-03 09:21:09.244 | INFO     | __main__:create_dw:98 - Data warehouse schema created successfully.
+2025-06-03 09:21:09.246 | INFO     | __main__:populate_dw:113 - Populating SQLite data warehouse from prepared CSVs...
+2025-06-03 09:21:09.451 | INFO     | __main__:populate_dw:133 - Inserted 201 rows into customers table.
+2025-06-03 09:21:09.585 | INFO     | __main__:populate_dw:150 - Inserted 100 rows into products table.
+2025-06-03 09:21:09.627 | ERROR    | __main__:populate_dw:189 - Error populating SQLite data warehouse: UNIQUE constraint failed: sales.sale_id
+2025-06-03 09:32:10.133 | INFO     | __main__:main:198 - ========================================
+2025-06-03 09:32:10.134 | INFO     | __main__:main:199 - Starting: create_dw_sqlite.py
+2025-06-03 09:32:10.134 | INFO     | __main__:main:200 - ========================================
+2025-06-03 09:32:10.134 | INFO     | __main__:main:201 - Root:   C:\Repos\smart-store-gaines-m
+2025-06-03 09:32:10.135 | INFO     | __main__:main:202 - Scripts:C:\Repos\smart-store-gaines-m\scripts\dw_create
+2025-06-03 09:32:10.135 | INFO     | __main__:main:203 - SQL:    C:\Repos\smart-store-gaines-m\sql\dw_create
+2025-06-03 09:32:10.136 | INFO     | __main__:main:204 - Input:  C:\Repos\smart-store-gaines-m\data\prepared
+2025-06-03 09:32:10.136 | INFO     | __main__:main:205 - Output: C:\Repos\smart-store-gaines-m\dw\smart_sales.sqlite
+2025-06-03 09:32:10.137 | INFO     | __main__:create_dw:76 - Creating data warehouse using SQLite...
+2025-06-03 09:32:10.138 | INFO     | __main__:run_sql_file:64 - RUN: C:\Repos\smart-store-gaines-m\sql\dw_create\00_drop_all_tables.sql
+2025-06-03 09:32:10.438 | INFO     | __main__:run_sql_file:64 - RUN: C:\Repos\smart-store-gaines-m\sql\dw_create\10_create_customers.sql
+2025-06-03 09:32:10.521 | INFO     | __main__:run_sql_file:64 - RUN: C:\Repos\smart-store-gaines-m\sql\dw_create\00_drop_all_tables.sql
+2025-06-03 09:32:10.622 | INFO     | __main__:run_sql_file:64 - RUN: C:\Repos\smart-store-gaines-m\sql\dw_create\20_create_products.sql
+2025-06-03 09:32:10.760 | INFO     | __main__:run_sql_file:64 - RUN: C:\Repos\smart-store-gaines-m\sql\dw_create\90_create_sales.sql
+2025-06-03 09:32:10.941 | INFO     | __main__:create_dw:98 - Data warehouse schema created successfully.
+2025-06-03 09:32:10.943 | INFO     | __main__:populate_dw:113 - Populating SQLite data warehouse from prepared CSVs...
+2025-06-03 09:32:11.156 | INFO     | __main__:populate_dw:133 - Inserted 201 rows into customers table.
+2025-06-03 09:32:11.262 | INFO     | __main__:populate_dw:150 - Inserted 100 rows into products table.
+2025-06-03 09:32:11.446 | INFO     | __main__:populate_dw:184 - Inserted 2000 rows into sales table.
+2025-06-03 09:32:11.447 | INFO     | __main__:populate_dw:186 - All tables populated successfully.
+2025-06-03 09:32:11.448 | INFO     | __main__:main:208 - ========================================
+2025-06-03 09:32:11.448 | INFO     | __main__:main:209 - Finished: create_dw_sqlite.py
+2025-06-03 09:32:11.448 | INFO     | __main__:main:210 - ========================================
+2025-06-03 09:33:14.327 | INFO     | __main__:load_data_to_db:84 - Connected to SQLite database at data\dw\smart_sales.sqlite
+2025-06-03 09:33:14.623 | INFO     | __main__:load_data_to_db:90 - Schema created and existing records deleted.
+2025-06-03 09:35:39.562 | INFO     | __main__:load_data_to_db:84 - Connected to SQLite database at data\dw\smart_sales.sqlite
+2025-06-03 09:35:39.565 | INFO     | __main__:load_data_to_db:90 - Schema created and existing records deleted.
+2025-06-03 09:39:50.176 | INFO     | __main__:load_data_to_db:84 - Connected to SQLite database at data\dw\smart_sales.sqlite
+2025-06-03 09:39:50.178 | INFO     | __main__:load_data_to_db:90 - Schema created and existing records deleted.
+2025-06-03 09:41:24.010 | INFO     | __main__:load_data_to_db:84 - Connected to SQLite database at data\dw\smart_sales.sqlite
+2025-06-03 09:41:24.012 | INFO     | __main__:load_data_to_db:90 - Schema created and existing records deleted.
+2025-06-03 09:41:24.131 | INFO     | __main__:load_data_to_db:134 - Inserted 200 records into customer table.
+2025-06-03 09:41:24.272 | INFO     | __main__:load_data_to_db:137 - Inserted 100 records into product table.
+2025-06-03 09:42:53.378 | INFO     | __main__:load_data_to_db:84 - Connected to SQLite database at data\dw\smart_sales.sqlite
+2025-06-03 09:42:53.381 | INFO     | __main__:load_data_to_db:90 - Schema created and existing records deleted.
+2025-06-03 09:42:53.700 | INFO     | __main__:load_data_to_db:134 - Inserted 200 records into customer table.
+2025-06-03 09:42:53.828 | INFO     | __main__:load_data_to_db:137 - Inserted 100 records into product table.
+2025-06-03 09:42:53.962 | INFO     | __main__:load_data_to_db:140 - Inserted 2000 records into sale table.

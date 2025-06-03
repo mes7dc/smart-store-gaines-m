@@ -1,10 +1,10 @@
 -- 10_create_customers.sql
 
 CREATE TABLE IF NOT EXISTS customers (
-    customer_id INTEGER PRIMARY KEY,
+    Customer_ID INTEGER PRIMARY KEY,
     Name TEXT NOT NULL,
     Region TEXT,
-    JoinDate TEXT,
-    PreferredContactMethod TEXT,
-    LoyaltyPoints INTEGER
+    Join_Date TEXT,
+    Preferred_Contact_Method TEXT,
+    Loyalty_Points INTEGER
 );

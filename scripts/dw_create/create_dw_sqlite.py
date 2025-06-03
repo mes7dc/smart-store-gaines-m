@@ -121,10 +121,12 @@ def populate_dw() -> None:
         
         df_customers = pd.read_csv(DATA_PREPARED_DIR / "customers_prepared.csv")
         df_customers = df_customers.rename(columns={
-            "CustomerID": "customer_id",
+            "Customer_ID": "customer_id",
             "Name": "name",
             "Region": "region",
-            "JoinDate": "join_date"
+            "Join_Date": "join_date",
+            "Preferred_Contact_Method": "preferred_contact_method",
+            "Loyalty_Points": "loyalty_points"
         })
 
         df_customers.to_sql("customers", conn, if_exists="append", index=False)
@@ -136,10 +138,12 @@ def populate_dw() -> None:
 
         df_products = pd.read_csv(DATA_PREPARED_DIR / "products_prepared.csv")
         df_products = df_products.rename(columns={
-            "ProductID": "product_id",
-            "ProductName": "product_name",
+            "Product_ID": "product_id",
+            "Product_Name": "product_name",
             "Category": "category",
-            "UnitPrice": "unit_price"
+            "Unit_Price": "unit_price",
+            "Stock_Quantity": "stock_quantity",
+            "Supplier": "supplier"
         })
 
         df_products.to_sql("products", conn, if_exists="append", index=False)
@@ -151,24 +155,26 @@ def populate_dw() -> None:
 
         df_sales = pd.read_csv(DATA_PREPARED_DIR / "sales_prepared.csv")
         df_sales = df_sales.rename(columns={
-            "TransactionID": "sale_id",
-            "SaleDate": "date",
-            "CustomerID": "customer_id",
-            "ProductID": "product_id",
-            "StoreID": "store_id",
-            "CampaignID": "campaign_id",
-            "SaleAmount": "sales_amount"
+            "Transaction_ID": "sale_id",
+            "Sale_Date": "sale_date",
+            "Customer_ID": "customer_id",
+            "Product_ID": "product_id",
+            "Store_ID": "store_id",
+            "Campaign_ID": "campaign_id",
+            "Sale_Amount": "sales_amount",
+            "Discount_Percent": "discount_percent",
+            "Payment_Type": "payment_type"
         })
 
         # TODO: Decide if you want to drop any unused columns in any of the tables
         # Example of how to drop columns:
         expected_columns = [
             "sale_id",
-            "date",
+            "sale_date",
             "customer_id",
             "product_id",
             "quantity",
-            "sales_amount",
+            "sales_amount"
         ]
         df_sales = df_sales[
             [col for col in expected_columns if col in df_sales.columns]
