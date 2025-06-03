@@ -14,7 +14,7 @@ from utils.logger import logger
 # Constants
 DW_DIR = pathlib.Path("data").joinpath("dw")
 DW_DIR.mkdir(parents=True, exist_ok=True)  # Needed to add this line to ensure the data warehouse directory exists
-DB_PATH = DW_DIR.joinpath("smart_sales.sqlite")
+DB_PATH = DW_DIR.joinpath("smart_sales.db")
 PREPARED_DATA_DIR = pathlib.Path("data").joinpath("prepared")
 PREPARED_DATA_DIR.mkdir(parents=True, exist_ok=True)
 
